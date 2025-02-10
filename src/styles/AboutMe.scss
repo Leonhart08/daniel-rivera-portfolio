@@ -88,11 +88,19 @@
 @media (max-width: $laptop-breakpoint) {
   .about-me__container {
     grid-template-columns: 1fr;
+    padding: 32px 42px;
   }
 
   .about-me__profile-picture {
     width: 250px;
     height: 250px;
+  }
+}
+
+@media (max-width: $mobile-breakpoint) {
+  .about-me__container {
+    grid-template-columns: 1fr;
+    padding: 32px 42px;
   }
 }
 
