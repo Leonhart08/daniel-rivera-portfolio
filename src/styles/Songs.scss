@@ -1,0 +1,9 @@
+.songs__list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 64px 64px;
+}
+
+.songs__list-item {
+  background-color: grey;
+}

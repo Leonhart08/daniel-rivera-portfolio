@@ -1,0 +1,27 @@
+.footer {
+  width: 100%;
+  text-align: center;
+  padding: $spacing-04 0;
+}
+
+.footer__icons-section {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: $spacing-03 0;
+  display: none;
+
+  & > svg {
+    fill: white;
+    width: 32px;
+    height: 32px;
+    margin: 0 $spacing-01;
+  }
+}
+
+
+@media (max-width: $tablet-breakpoint) {
+  .footer__icons-section {
+    display: block;
+  }
+}

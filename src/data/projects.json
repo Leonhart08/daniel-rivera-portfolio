@@ -1,0 +1,16 @@
+{
+  "data": [
+    {
+      "name": "Tri Osc Synthesizer",
+      "description": "Lorem ipsum dolor sit amet.",
+      "link": "http://www.google.cl",
+      "image": "project_tri_osc.png"
+    },
+    {
+      "name": "Viscovery Project (contribution)",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras at metus eros. Donec ac diam nibh.",
+      "link": "http://www.google.cl",
+      "image": "project_viscovery.png"
+    }
+  ]
+}

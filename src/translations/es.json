@@ -1,0 +1,50 @@
+{
+  "translation": {
+    "presentation": {
+      "greetings": "Hola, mi nombre es:",
+      "content": "Desarrollo aplicaciones de software modernas enfocadas en alta calidad y centradas en el usuario para la web. También soy un entusiasta de la música <0/>."
+    },
+    "topbar": {
+      "about-me": "Sobre mi",
+      "as-a-developer": "Como desarrollador",
+      "as-a-composer": "Como músico",
+      "projects": "Projectos",
+      "portfolio-button": "Portafolio"
+    },
+    "about-me": {
+      "title": "About Me",
+      "content": [
+        "¡Hola a todos! Mi nombre es Daniel Rivera, soy un <0> ingeniero de software </0> de Chile <1/> que actualmente vive en Dinamarca. <2/>",
+        "Como desarrollador con amplia experiencia práctica en el campo de desarrollo web <0> front-end </0>, he trabajado con una amplia gama de herramientas y marcos como React, Node, Angular. etc. También tengo experiencia trabajando como desarrollador <0> full-stack </0> en fábricas de software de alto ritmo.",
+        "Con experiencia en informática, me interesa la optimización de código, la resolución de problemas y el aprendizaje continuo, además de participar en proyectos desafiantes en equipos multifuncionales.",
+        "En mi tiempo libre sigo mi pasión que es la <0> música </0> <1/>. ¡Actualmente estoy tratando de unir mi campo profesional con mi pasión creando herramientas web para ayudar a aprender teoría musical o crear canciones con la pila actual de tecnologías front-end!" 
+      ]
+    },
+    "as-a-developer": {
+      "title": ["Como", "Desarrollador"],
+      "content": [
+        "Centrado principalmente en el desarrollo de aplicaciones web modernas utilizando frameworks Javascript, también he tenido experiencia trabajando en el campo del desarrollo back-end y algunos proyectos interesantes de ciencia de datos.",
+        "Las principales herramientas y framework que he utilizado son:"
+      ],
+      "experience": {
+        "captego": "Como desarrollador Full-Stack en Captego, lideré el desarrollo de una nueva versión de la característica principal de la aplicación de la empresa. Reconstruí desde cero el sistema de creación, edición y automatización de PDF, mejorando el procesamiento de datos y la visualización para satisfacer las diversas necesidades de los clientes. También gestioné el performance de la nueva propuesta, optimizando el rendimiento, la escalabilidad y la experiencia del usuario (UX).",
+        "beetrack": "Como desarrollador Front-end en Beetrack estuve a cargo del desarrollo y mantenimiento de múltiples aplicaciones web en un equipo de desarrollo de productos basado en celdas bajo una metodología ágil, además de la creación e integración de nuestro propio Sistema de Diseño enfocado en reutilizables. componentes", 
+        "nursoft": "Como desarrollador full-stack, perfeccioné mis habilidades para trabajar en un equipo acelerado enfocado en el desarrollo ágil, mientras mejoraba mi capacidad de aprendizaje continuo de acuerdo a las necesidades del proyecto y/o del equipo. Esta experiencia me dio la oportunidad de comprender a fondo, en todas sus aristas, lo que implica el desarrollo de software moderno." ,
+        "novaviz": "En un proyecto llamado 'Viscovery', trabajé como Ingeniero a cargo de Desarrollo de Procesos y Algoritmos. Esta experiencia me dio mi primer acercamiento como diseñador UX y como científico de datos utilizando herramientas modernas como Python 3. Fruto de este trabajo fue posible publicar el artículo “Viscovery: A Platform for Trend Tracking in Opinion Forums” , y la optimización final del algoritmo de temas fue el tema principal de mi proyecto de tesis de licenciatura."
+      }
+    },
+    "as-a-composer": {
+      "title": ["Como", "Músico"],
+      "content": "Mi hobby y pasión es la música. Como multiinstrumentista autodidacta, paso mi tiempo como compositor y mis preferencias incluyen una amplia gama de géneros. Uno de mis objetivos personales es trabajar como compositor independiente en un videojuego independiente o comenzar a lanzar mi propia música en las redes sociales como artista independiente (trabajo en progreso). También trato de fusionar mi pasión con mi profesión como desarrollador front-end y crear herramientas que me ayuden a visualizar y crear música."
+    },
+    "projects": {
+      "title": "Projectos"
+    },
+    "experience": {
+      "title": "Experiencia"
+    },
+    "footer": {
+      
+    }
+  }
+}

@@ -1,0 +1,228 @@
+.topbar {
+  width: 100%;
+  height: 65px;
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  
+  padding: 14px $spacing-05;
+  padding-left: 32px;
+  background-color: $background-primary;
+  z-index: 3;
+
+  transition: box-shadow 0.3s;
+}
+
+.topbar__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: $primary;
+  border-radius: 100%;
+  width: 37px;
+  height: 37px;
+
+  //topbar__portfolio-linkborder: 1px solid white;
+
+  cursor: pointer;
+
+  transition: border-color 0.3s, background-color 0.3s;
+
+  & > svg {
+    fill: white;
+    width: 19px;
+    height: 19px;
+    transition: fill 0.3s;
+  }
+
+  &:hover {
+    border-color: $primary;
+    background-color: white;
+
+    & > svg {
+      fill: $primary;
+    }
+  }
+}
+.topbar__list {
+  display:flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+
+  & > li {
+    list-style: none;
+  }
+}
+
+.topbar__list-item {
+  cursor: pointer;
+  text-transform: capitalize;
+  font-size: 20px;
+  font-weight: 400;
+  color: $ink-main-primary;
+  transition: color 3.35s cubic-bezier(0.55, 0, 0.55, 0.2);
+
+  &:hover {
+    color: $secondary-light;
+    transition: color 3.35s cubic-bezier(0.55, 0, 0.55, 0.2);
+  }
+}
+
+.topbar__list-item-separator {
+  padding: 0 $spacing-02;
+  color:  $primary;
+} 
+
+.topbar__portfolio-link {
+  margin-left: $spacing-03;
+}
+
+$numElements: 8;
+
+.topbar__fade-in {
+  .topbar__list-item {
+    transform: translate(-5px, 0);
+    opacity: 0;
+  }
+  .topbar__list-item-separator {
+    opacity: 0;
+  }
+  .topbar__portfolio-link {
+    opacity: 0;
+  }
+}
+
+.topbar__fade-in--active {
+  .topbar__list-item-separator, .topbar__portfolio-link {
+    opacity: 1;
+    transition: opacity 0.75s;
+    transition-delay: 2s;
+  }
+
+  @for $i from 0 through $numElements {
+    .topbar__list-item:nth-child(#{$i}) {
+      transform: translate(0, 0);
+      opacity: 1;
+      transition: opacity 0.75s, transform 0.75s;
+      transition-delay: #{$i/9 + 1}s
+    }
+  }
+}
+.topbar__scrolling {
+  box-shadow: 0 10px 20px -10px rgba(0,0,0,0.25);
+  transform: translate(0,-75px);
+  transition: box-shadow 0.3s, transform 0.3s;
+  transition-delay: 1s, 0;
+}
+
+.topbar__scrolling-back {
+  transform: translate(0,0);
+  transition: transform 0.3s;
+}
+
+.topbar__menu-icon {
+  color: $secondary-light;
+
+  transition: color 0.3s;
+  svg {
+    height: 37px;
+    width: 37px;
+  }
+  cursor: pointer;
+
+  &:hover {
+    color: white;
+  }
+}
+
+.topbar__modal-container {
+  position: fixed;
+  z-index: 2;
+  height: 100%;
+  min-height: 100%;
+  min-width: 100%;
+  transition: filter 0.3s, backdrop-filter 0.3s;
+
+}
+
+.topbar__modal-container--mounted {
+  backdrop-filter: blur(3px);
+  filter: blur(3px);
+  transition: filter 0.3s, backdrop-filter 0.3s;
+  z-index: 3;
+}
+
+.topbar__modal {
+  position: fixed;
+  z-index: 3;
+  height: 100%;
+  min-height: 100%;
+  min-width: 45vw;
+  right: -45vw;
+  top: 0;
+  padding: 64px;
+  background-color: $background-primary;
+  box-shadow: -5px 0 5px rgba(0, 0, 0, 0.5);
+  transition: right 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.topbar__modal--mounted {
+  right: 0;
+}
+
+.topbar__modal-list {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100%;
+  
+}
+
+.topbar__modal-list-item {
+  color: white;
+  font-size: 20px;
+  margin: 16px 0;
+
+  &:hover {
+    color: $secondary-light;
+    text-decoration: underline;
+  }
+  cursor:pointer
+}
+
+.topbar__modal-button-section {
+  margin: $spacing-03 0;
+}
+
+.topbar__modal-icons-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: $spacing-02 0;
+
+  & > svg {
+    width: 28px;
+    height: 28px;
+    fill: white;
+    margin: 0 $spacing-01;
+    transition: transform 0.3s, fill 0.3s;
+    cursor: pointer;
+
+    &:hover {
+      fill: $primary;
+      transform: scale(1.35, 1.35);
+    }
+  }
+}
+
+@media (max-width: $tablet-breakpoint) {
+  .topbar {
+    //opacity: 0;
+  }
+}

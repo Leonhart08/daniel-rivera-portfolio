@@ -1,0 +1,108 @@
+.projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 64px;
+  width: 100%;
+}
+
+.projects__title {
+  width: 100%;
+  background-image: radial-gradient(circle at 1px 1px, $primary 1px, transparent 0);
+  background-size: 20px 20px;
+  padding: $spacing-04 0;
+
+  & > h2 {
+    color: $ink-main-primary;
+    font-size: 48px;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    text-align: center;
+    width: 40%;
+    margin: auto;
+    padding: $spacing-01 $spacing-02;
+    background-color: $background-primary;
+  }
+}
+
+.projects__list {
+  display: grid;
+  width: 100%;
+  margin-top: $spacing-05;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  justify-items: center;
+  justify-content: space-between;
+  align-items: center;   
+  gap: $spacing-05 $spacing-05;
+}
+
+.projects__list-item {
+  display:flex;
+  flex-direction: column;
+  background-color: $white-secondary;
+  max-width: 300px;
+  min-height: 350px;
+
+  border-radius: 10px;
+
+  cursor: pointer;
+
+  transition: transform 0.2s, box-shadow 0.2s;
+
+  & > img {
+    width: 300px;
+    height: fit-content;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+    transition: filter 0.2s;
+    filter: grayscale(100%);
+  }
+
+  &:hover {
+    transform: translate(-5px, -5px);
+
+    box-shadow: 12px 12px $background-secondary;
+
+    & > img {
+      filter: grayscale(0%);
+    }
+  }
+}
+
+.projects__list-item-content {
+  //padding: $spacing-01 $spacing-02;
+
+  & > h4 {
+    color: $secondary-light;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-weight: 500;
+    margin-bottom: $spacing-01;
+    background-color: $black;
+    padding: $spacing-01 $spacing-02;
+  } 
+  
+  & > span {
+    color: $ink-alt-primary;
+    display: block;
+    padding: $spacing-01 $spacing-02;
+  } 
+}
+
+@media (max-width: $tablet-breakpoint) {
+  .projects__title {
+    padding: 0;
+    background-image: none;
+    vertical-align: middle;
+    border-bottom: 2px solid $primary;
+    
+    //background-color: blue;
+    //color: blue;
+  }
+  .projects__title > h2 {
+    width: 100%;
+  }
+}

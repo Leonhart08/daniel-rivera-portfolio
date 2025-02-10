@@ -1,0 +1,46 @@
+.player {
+  width: 100%;
+  background-color: $background-primary;
+}
+
+.player__thumbnail {
+  position: relative;
+
+  min-height: 200px;
+
+  img {
+    width: 100%;
+  }
+}
+
+.player__button {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  bottom: 5px;
+  width: 50px;
+  height: 50px;
+
+  svg {
+    fill: white;
+    width: 20px;
+    height: 20px;
+  }
+}
+
+.player__content {
+  padding: 12px;
+}
+
+.player__content-title {
+  color: white;
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
+.player__content-author {
+  color: grey;
+  font-size: 12px;
+}

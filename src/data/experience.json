@@ -1,0 +1,36 @@
+{
+  "data": [
+    {
+      "job": "Full-Stack Engineer",
+      "company": "Captego",
+      "from": "2023",
+      "to": "2024",
+      "description": "as-a-developer.experience.captego",
+      "tags": ["Typescript", "React + Redux", "Firebase", "GraphQL"]
+    },
+    {
+      "job": "Frontend Developer",
+      "company": " Beetrack (DispatchTrack)",
+      "from": "2020",
+      "to": "2023",
+      "description": "as-a-developer.experience.beetrack",
+      "tags": ["Javascript", "React + Redux", "Storybook UI"]
+    },
+    {
+      "job": "Full-Stack Developer",
+      "company": "Nursoft",
+      "from": "2018",
+      "to": "2020",
+      "description": "as-a-developer.experience.nursoft",
+      "tags": ["Javascript", "React + Redux", "KoaJs", "Elixir", "Rails"]
+    },
+    {
+      "job": "Research and Software Developer",
+      "company": "Novaviz",
+      "from": "2017",
+      "to": "2018",
+      "description": "as-a-developer.experience.novaviz",
+      "tags": ["Python", "Javascript", "HTML + SCSS"]
+    }
+  ]
+}

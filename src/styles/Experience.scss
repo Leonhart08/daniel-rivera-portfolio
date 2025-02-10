@@ -1,0 +1,53 @@
+/* Portfolio Experience */
+.experience {
+  display: flex;
+  flex-direction: column;
+  margin-top: 24px;
+}
+
+.experience-title {
+  font-size: 24px;
+  color: $primary;
+  font-weight: 500;
+}
+
+.experience-list {
+  display: flex;
+  flex-direction: column;
+  margin-left: 16px;
+}
+
+.experience-list-item {
+  margin: 16px 0;
+
+  & > div:first-child {
+    font-size: 22px;
+    font-weight: 500;
+  }
+
+  & > div:nth-child(2)  {
+    font-size: 16px;
+    color: $ink-alt-tertiary;
+    font-weight: 800;
+    margin-top: 8px;
+    margin-bottom: 12px;
+    color: $ink-main-grey;
+  }
+
+  & > div:nth-child(3) {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 16px;
+    line-height: 1.15;
+    text-align: left;
+  }
+}
+
+.experience-tools-list {
+  display: flex;
+  flex-direction: row;
+
+  & > div:first-child {
+    margin-left: 0;
+  }
+}

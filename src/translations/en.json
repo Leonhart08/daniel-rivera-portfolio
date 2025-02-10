@@ -1,0 +1,55 @@
+{
+  "translation": {
+    "welcome": "Welcome to my app!",
+    "home": "Home",
+    "about": "About",
+    "contact": "Contact",
+    "hello": "Hello, {name}!",
+    "presentation": {
+      "greetings": "Hi, my name is:",
+      "content": "I build modern software applications focused on high quality and user-centered for the web. I'm also a music enthusiast <0/>."
+    },
+    "topbar": {
+      "about-me": "About Me",
+      "as-a-developer": "As a Developer",
+      "as-a-composer": "As a Composer",
+      "projects": "Projects",
+      "portfolio-button": "Portfolio"
+    },
+    "about-me": {
+      "title": "About Me",
+      "content": [
+        "Hi Everyone! My name is Daniel Rivera, i'm a <0> software engineer </0> from Chile <1/> currently living in Denmark. <2/>",
+        "As a developer with extensive hands-on experience in the <0> front-end </0> web development field, I have worked with a wide range of tools and frameworks such as React, Node, Angular. etc. I also have experience working as a <0> full-stack </0> developer in high-paced software factories.",
+        "With a computer science background, I am all about code optimization, problem solving, and continuous learning, as well as participating in challenging projects in cross-functional teams.",
+        "In my spare time, I follow my passion that is <0> music </0> <1/>. I'm currently trying to join my professional field with my passion creating web tools to help learning music theory or creating songs with the current stack of front-end technologies!" 
+      ]
+    },
+    "as-a-developer": {
+      "title": ["As a", "Software Developer"],
+      "content": [
+        "Centered mainly in the development of modern web applications using Javascript frameworks, I have also had experience working in the back-end development field and some interesting data science projects.",
+        "The main tools and framework that I have used are:"
+      ],
+      "experience": {
+        "captego": "As a <0>Full-stack</0> developer in Captego, I led the development of a new version of the company's core app feature. I rebuilt the PDF creation, editing, and automation system from scratch, enhancing data processing and visualization to meet diverse client needs. Managed end-to-end development, optimizing performance, scalability, and user experience",
+        "beetrack": "As a <0>Front-end</0> developer in Beetrack, I was in charge of the development and maintenance of multiple web applications in a cell-based product development team under an agile methodology, in addition to the creation and integration of our own Design System focusing on reusable components.", 
+        "nursoft": "As a <0>Full-stack</0> developer, I refined my skills to work in a fast-paced team focused in agile development,  while improving my ability of continuous learning according to the needs of the project and/or the team. This experience gave me the opportunity to fully understand, in all its edges, what modern software development involves." ,
+        "novaviz": "In a project called 'Viscovery',  I worked as an Engineer in charge of Development of Processes and Algorithms. This experience gave me my first approach as a UX designer and as a data scientist using modern tools such as Python 3. As a result of this work, it was possible to publish the article <0>“Viscovery: A Platform for Trend Tracking in Opinion Forums”</0>, and the final optimization of the topics algorithm was the main subject of my BSc Thesis project."
+      }
+    },
+    "as-a-composer": {
+      "title": ["As a", "Composer"],
+      "content": "My hobby and passion is music. As a self-taught multi instrumentalist, I spend my time as a composer and my preferences include a wide range of genres. One of my personal goals is to work as a freelance composer in an indie video game or start releasing my own music on social media as an independent artist (work in progress). I also try to merge my passion with my profession as a front-end developer and create tools that help me visualize and create music."
+    },
+    "projects": {
+      "title": "Projects"
+    },
+    "experience": {
+      "title": "Experience"
+    },
+    "footer": {
+      
+    }
+  }
+}

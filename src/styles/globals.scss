@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700&display=swap');
+
+:root {
+  --max-width: 1100px;
+  --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
+    'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
+    'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
+  
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'League Spartan', sans-serif;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+html,
+body {
+  max-width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+body {
+  color: $ink-main-secondary;
+  background-color: $background-primary;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.section-container {
+  box-sizing: inherit;
+  padding: clamp(120px, 5%, 5%) clamp(50px, 15vw, 20%);
+}
+
+.section-container:first-child {
+  min-height: 100vh;
+}
+
+.section-container--black {
+  background-color: $background-secondary;
+}
+
+.box {
+  box-sizing: inherit;
+  padding: $spacing-03;
+}
+
+.fade-in {
+  opacity: 0;
+}
+
+.fade-in.active {
+  opacity: 1;
+  transition: opacity  0.5s ease-in;
+}
+
+.scroll-fade-in {
+  transform: translate(0, 50px);
+  opacity: 0;
+}
+
+.scroll-fade-in.active {
+  opacity: 1;
+  transform: translate(0, 0);
+  transition: transform  0.35s ease-in, opacity  0.35s ease-in;
+}
+
+@media (max-width: $screen-breakpoint) {
+  .section-container {
+    padding: clamp(120px, 5%, 5%) clamp(50px, 12vw, 20%);
+  }
+}
+
+@media (max-width: $tablet-breakpoint) {
+  .section-container {
+    padding: 75px;
+  }
+}
+
+@media (max-width: $mobile-breakpoint) {
+  .section-container {
+    padding: 0 25px;
+  }
+}

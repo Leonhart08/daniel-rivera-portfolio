@@ -1,0 +1,66 @@
+.language-settings {
+  position: fixed;
+  bottom: 25px;
+  right: 50px;
+  z-index: 1;
+}
+
+.language-settings__item {
+  font-size: 16px;
+  letter-spacing: 1px;
+  padding: 8px;
+  cursor: pointer,
+}
+
+.language-settings__item--selected {
+  font-size: 16px;
+  letter-spacing: 1px;
+  padding: 8px;
+  background-color: $background-primary;
+  border: 2px solid $primary;
+  border-radius: 25px;
+  color: $secondary-light;
+  width: 40px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.language-settings__list {
+  position: absolute;
+  z-index: -1;
+  bottom: 0;
+  transition: padding-bottom 0.3s, visibility 3s;
+  visibility: hidden;
+  background-color: lighten($color: $background-primary, $amount: 10%);
+  border: 2px solid $primary;
+  border-radius: 25px;
+  width: 40px;
+  text-align: center;
+}
+
+.language-settings:hover {
+  .language-settings__list {
+    visibility: visible;
+    
+    padding-bottom: 50px;
+    transition: padding-bottom 0.3s, visibility 3s;
+
+    .language-settings__item {
+      transition: height 3s, visibility 3s;
+      color: white;
+      &:hover {
+        color: $primary-light;
+      }
+    } 
+  }
+}
+
+.language-settings__fade-in{
+  opacity: 0;
+}
+
+.language-settings__fade-in--active {
+  opacity: 1;
+  transition: opacity 0.75s;
+  transition-delay: 2s;
+}

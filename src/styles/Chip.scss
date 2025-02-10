@@ -1,0 +1,20 @@
+.chip {
+  font-size: 14px;
+  font-weight: 500;
+
+  background-color: $primary-dark;
+  color: white;
+  padding: 4px 12px;
+  border-radius: 12px;
+  margin: 0 4px;
+  user-select: none;
+  border: 1px solid transparent;
+
+  transition: border-color 0.3s, color 0.3s, background-color 0.3s;
+
+  &:hover {
+    background-color: white;
+    color: $primary-dark;
+    border: 1px solid $primary-dark;
+  }
+}
