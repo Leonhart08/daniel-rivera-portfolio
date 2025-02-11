@@ -30,6 +30,7 @@
   border-bottom: 2px solid $primary;
   margin-bottom: 4px;
 }
+
 .about-me__content > h3 {
   font-size: 48px;
   font-weight: bold;
@@ -100,7 +101,11 @@
 @media (max-width: $mobile-breakpoint) {
   .about-me__container {
     grid-template-columns: 1fr;
-    padding: 32px 42px;
+    padding: 32px 22px;
+  }
+
+  .about-me__content > div {
+    font-size: 18px;
   }
 }
 
