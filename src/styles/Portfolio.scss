@@ -84,7 +84,6 @@
   vertical-align: bottom;
 }
 
-
 .portfolio__developer-list {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -102,7 +101,7 @@
     min-width: 32px;
     min-height: 32px;
     fill: black;
-    margin-right: 12px;
+    padding-right: 12px;
   }
 
   div {
@@ -152,9 +151,14 @@
     }
   }
 
-  
-
   .portfolio {
     padding: 18px;
+  }
+}
+
+@media (max-width: $mobile-breakpoint) {
+  .portfolio__text > div {
+    font-size: 18px;
+    text-align: justify;
   }
 }

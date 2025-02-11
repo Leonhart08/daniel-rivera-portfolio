@@ -104,8 +104,15 @@
     padding: 32px 22px;
   }
 
+  .about-me__profile-picture {
+    filter: none;
+  }
+  
   .about-me__content > div {
     font-size: 18px;
+  }
+  .about-me__content > h3 {
+    font-size: 42px;
   }
 }
 
