@@ -43,10 +43,6 @@ a {
   padding: clamp(120px, 5%, 5%) clamp(50px, 15vw, 20%);
 }
 
-.section-container:first-child {
-  min-height: 100vh;
-}
-
 .section-container--black {
   background-color: $background-secondary;
 }

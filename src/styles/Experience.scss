@@ -46,6 +46,7 @@
 .experience-tools-list {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
 
   & > div:first-child {
     margin-left: 0;

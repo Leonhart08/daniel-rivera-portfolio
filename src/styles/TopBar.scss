@@ -227,3 +227,10 @@ $numElements: 8;
     //opacity: 0;
   }
 }
+
+@media (max-width: $mobile-breakpoint) {
+  .topbar {
+    padding: 14px 32px;
+  }
+}
+

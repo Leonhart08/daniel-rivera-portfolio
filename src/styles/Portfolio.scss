@@ -99,8 +99,8 @@
   align-items: center;
   
   svg {
-    width: 32px;
-    height: 32px;
+    min-width: 32px;
+    min-height: 32px;
     fill: black;
     margin-right: 12px;
   }
@@ -115,7 +115,6 @@
 @media (max-width: $screen-breakpoint) {
   .portfolio__wrapper {
     grid-template-columns: 1fr;
-
   }
 
   .portfolio-composer {
@@ -130,9 +129,32 @@
       grid-template-areas: "A"
       "B";
     }
+    .experience-list {
+      margin-left: 0px;
+    }
+
+    .experience-list-item > div:nth-child(3) {
+      text-align: justify;
+    }
+
+    .experience-tools-list > div:first-child {
+      margin: 0 4px;
+    }
+
+    .experience-tools-list > div.chip {
+      text-align: center;
+    }
+
+    .experience-tools-list {
+      display: grid;
+      grid-template-columns: 50% 50%;
+      gap: 10px; /* Optional spacing between items */
+    }
   }
 
+  
+
   .portfolio {
-    padding: 24px;
+    padding: 18px;
   }
 }

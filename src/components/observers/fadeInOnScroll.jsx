@@ -4,11 +4,13 @@ import PropTypes from 'prop-types';
 
 export const FadeInOnScroll = ({ children }) => {
   const ref = useRef(null);
+
   const [isVisible, setIsVisible] = useState(false);
   
   useEffect(() => {
     const observer = new IntersectionObserver(
       ([entry]) => {
+        console.log("entry", children.props.children.props.className)
         if (entry.isIntersecting) {
           setIsVisible(entry.isIntersecting)
         }
@@ -24,6 +26,8 @@ export const FadeInOnScroll = ({ children }) => {
       observer.observe(ref.current);
     }
   }, []);
+
+  console.log("isVisible: ", children.props.children.props.className)
 
   return (
     <div ref={ref} className={`scroll-fade-in ${isVisible ? "active" : ""}`}>

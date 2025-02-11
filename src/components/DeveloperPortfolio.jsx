@@ -11,7 +11,7 @@ export const DeveloperPortfolio = () => {
   const { t } = useTranslation()
 
   return (
-    <FadeInOnScroll>
+    <>
       <div className="section-container">
         <div className='portfolio portfolio-developer'>
           <Box>
@@ -62,6 +62,6 @@ export const DeveloperPortfolio = () => {
           </Box>
         </div>
       </div>
-    </FadeInOnScroll>
+    </>
   )
 }
