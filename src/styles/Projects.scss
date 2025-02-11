@@ -99,10 +99,16 @@
     vertical-align: middle;
     border-bottom: 2px solid $primary;
     
-    //background-color: blue;
-    //color: blue;
   }
+
   .projects__title > h2 {
     width: 100%;
   }
+
+  .projects__list-item {
+    & > img {
+      filter: none;
+    }
+  }
 }
+
