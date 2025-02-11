@@ -5,23 +5,24 @@
 }
 
 .footer__icons-section {
-  display: flex;
+  display: none;
   justify-content: center;
   width: 100%;
   margin: $spacing-03 0;
-  display: none;
+}
 
-  & > svg {
+.footer__icons-section__icon {
+  & > a >svg {
     fill: white;
-    width: 32px;
-    height: 32px;
-    margin: 0 $spacing-01;
+    width: 24px;
+    height: 24px;
+    margin: 0 $spacing-02;
   }
 }
 
 
 @media (max-width: $tablet-breakpoint) {
   .footer__icons-section {
-    display: block;
+    display: flex;
   }
 }
