@@ -2,14 +2,14 @@
   "data": [
     {
       "name": "Tri Osc Synthesizer",
-      "description": "Lorem ipsum dolor sit amet.",
-      "link": "http://www.google.cl",
+      "description": "TriOsc is a JUCE-based synthesizer inspired by FL Studio's 3xOSC. It features three independent oscillators designed for simple yet effective sound design.",
+      "link": "https://github.com/Leonhart08/TriOsc",
       "image": "project_tri_osc.png"
     },
     {
       "name": "Viscovery Project (contribution)",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras at metus eros. Donec ac diam nibh.",
-      "link": "http://www.google.cl",
+      "description": "Platform for opinion summarization and trend tracking that is able to analyze a stream of opinions recovered from forums.",
+      "link": "https://arxiv.org/pdf/1805.00457",
       "image": "project_viscovery.png"
     }
   ]

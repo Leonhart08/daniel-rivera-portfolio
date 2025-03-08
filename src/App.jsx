@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef, forwardRef } from 'react'
+import { useState, useEffect, useRef } from 'react'
 
 import { Presentation } from './components/presentation/Presentation'
 import { AboutMe } from './components/about-me/AboutMe'
@@ -7,7 +7,6 @@ import { DeveloperPortfolio } from './components/DeveloperPortfolio'
 import { Projects } from './components/projects/projects'
 
 import { SocialMediaLinks } from './components/common/SocialMediaLinks'
-import { Container } from './components/common/Container'
 import { LangSettings } from './components/common/LangSettings'
 import { TopBar } from './components/common/TopBar'
 import { Footer } from './components/common/Footer'
