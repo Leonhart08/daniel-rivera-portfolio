@@ -14,10 +14,10 @@
     "about-me": {
       "title": "Sobre Mi",
       "content": [
-        "¡Hola! Mi nombre es Daniel Rivera, soy un <0> ingeniero de software </0> de Chile <1/> que actualmente vive en Dinamarca. <2/>",
-        "Como desarrollador con amplia experiencia práctica en el campo de desarrollo web <0> front-end </0>, he trabajado con una amplia gama de herramientas y marcos como React, Node, Angular. etc. También tengo experiencia trabajando como desarrollador <0> full-stack </0> en fábricas de software de alto ritmo.",
-        "Con experiencia en informática, me interesa la optimización de código, la resolución de problemas y el aprendizaje continuo, además de participar en proyectos desafiantes en equipos multifuncionales.",
-        "En mi tiempo libre sigo mi pasión que es la <0> música </0> <1/>. ¡Actualmente estoy tratando de unir mi campo profesional con mi pasión creando herramientas web para ayudar a aprender teoría musical o crear canciones con la pila actual de tecnologías front-end!" 
+        "¡Hola! Mi nombre es Daniel Rivera, soy un <0> ingeniero de software </0> de Chile <1/> viviendo actualmente en Dinamarca. <2/>",
+        "Como desarrollador con amplia experiencia práctica en el campo de desarrollo web <0> front-end </0>, he trabajado con una amplia gama de herramientas y marcos como React, Node, Angular. etc. También tengo experiencia trabajando como desarrollador <0> full-stack </0> en empresas de software de alto rendmiento.",
+        "Con un background sólido en Ciencias de la computación, me interesa la optimización de código, la resolución de problemas y el aprendizaje de nuevas herramientas, además de participar en proyectos desafiantes en equipos multifuncionales.",
+        "En mi tiempo libre sigo mi pasión que es la <0> música </0> <1/>. Actualmente estoy tratando de unir mi campo profesional con mi pasión creando herramientas web para ayudar a aprender teoría musical o crear canciones con el stack moderno de tecnologías front-end." 
       ]
     },
     "as-a-developer": {
