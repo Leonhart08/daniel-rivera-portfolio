@@ -17,13 +17,15 @@ export const Projects = () => {
           <div className='projects__list'> 
             {projectsList.data.map((item,index) => {
               return (
-                <div key={index} className='projects__list-item'>
+                <a key={index} href={item.link} >
+                  <div  className='projects__list-item'>
                     <img src={item.image}  className='project__list-item-image' /> 
                     <div className='projects__list-item-content'>
                       <h4> { item.name } </h4>
                       <span> { item.description } </span>
                     </div>
-                </div>
+                  </div>
+                </a>
               )
             })}
           </div>

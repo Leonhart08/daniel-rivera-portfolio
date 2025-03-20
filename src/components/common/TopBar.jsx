@@ -11,7 +11,7 @@ import { FaCode } from 'react-icons/fa'
 
 export const TopBar = ({ sectionsList, handleClick }) => {
   const { t } = useTranslation();
-  console.log('sectionsList', sectionsList)
+
   const [visible, setVisible] = useState(false)
   const [scrollPosition, setScrollPosition] = useState(0)
   const [scrollingBack, setScrollingBack] = useState(false)
@@ -71,8 +71,8 @@ export const TopBar = ({ sectionsList, handleClick }) => {
                 </>
               )
             })}
-            <div className='topbar__portfolio-link'>
-              <Button text="Portfolio"/>
+            <div className='topbar__portfolio-link' onClick={() => window.open('https://leonhart08.github.io/daniel-rivera-portfolio/daniel_rivera_cv-2025.pdf', '_blank').focus()}>
+              <Button text="My CV"/>
             </div>
           </div>
         )}
