@@ -11,6 +11,12 @@
       "description": "Platform for opinion summarization and trend tracking that is able to analyze a stream of opinions recovered from forums.",
       "link": "https://arxiv.org/pdf/1805.00457",
       "image": "project_viscovery.png"
+    },
+    {
+      "name": "React Tetris",
+      "description": "The acclaimed game from 1984, builded with React and with improved design!",
+      "link": "https://github.com/Leonhart08/react-tetris",
+      "image": "react-tetris.png"
     }
   ]
 }
